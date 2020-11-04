@@ -20,6 +20,7 @@ public class StudentSurvey {
 			String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
 			String username = "rmalve";
 			String password = "stirtirg";
+			String testString = "ABC";
 			conn = DriverManager.getConnection(url, username, password);
 			
 			//Query for insert in database generated using getter methods for values
